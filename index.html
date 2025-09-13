@@ -1,22 +1,87 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
- 
+<!-- Google tag (tongyong-gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CXH17REJKN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CXH17REJKN');
+</script>
  
 <meta name="google-adsense-account" content="ca-pub-8794607118520437">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8794607118520437"
+     crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shijian - 专业计时器</title>
+    <title>时间管理工具 - 专业计时器、倒计时器、番茄钟、秒表在线 | 时间效率提升专家</title>
+    <meta name="description" content="专业的在线时间管理工具，提供计时器、倒计时器、番茄钟、秒表等功能。帮助您提高时间效率，优化时间分配，实现有效的时间管理。免费使用，无需下载。">
+    <meta name="keywords" content="时间管理,计时器,倒计时器,番茄钟,秒表,时间效率,时间规划,时间追踪,时间计算器,在线计时,时间工具,时间优化,时间安排,日程管理,工作时间,学习时间">
+    <meta name="author" content="TimeMaster">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://shijian1.online/">
+    <meta property="og:title" content="时间管理工具 - 专业计时器、倒计时器、番茄钟、秒表在线">
+    <meta property="og:description" content="专业的在线时间管理工具，提供计时器、倒计时器、番茄钟、秒表等功能。帮助您提高时间效率，优化时间分配。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shijian1.online/">
+    <meta property="og:site_name" content="TimeMaster">
+    <meta property="og:locale" content="zh_CN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="时间管理工具 - 专业计时器在线">
+    <meta name="twitter:description" content="专业的在线时间管理工具，提供计时器、倒计时器、番茄钟、秒表等功能。">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Performance Optimization -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    
+    <!-- Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "TimeMaster - 专业时间管理工具",
+        "description": "专业的在线时间管理工具，提供计时器、倒计时器、番茄钟、秒表等功能。帮助您提高时间效率，优化时间分配，实现有效的时间管理。",
+        "url": "https://shijian1.online",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Web Browser",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "creator": {
+            "@type": "Organization",
+            "name": "TimeMaster"
+        },
+        "featureList": [
+            "在线计时器",
+            "倒计时器",
+            "番茄钟",
+            "秒表功能",
+            "时间管理工具",
+            "时间效率提升"
+        ],
+        "screenshot": "https://shijian1.online/screenshot.png"
+    }
+    </script>
 </head>
 <body>
     <div class="container">
         <!-- 导航栏 -->
         <nav class="navbar">
             <div class="nav-brand">
-                <i class="fas fa-clock"></i>
+                <i class="fas fa-clock" aria-label="时钟图标"></i>
                 <span>TimeMaster</span>
             </div>
             <div class="nav-menu">
@@ -26,18 +91,22 @@
                 <button class="nav-item active" data-tab="stopwatch">秒表</button>
             </div>
             <div class="nav-controls">
-                <button class="theme-toggle" id="themeToggle">
-                    <i class="fas fa-moon"></i>
+                <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+                    <i class="fas fa-moon" aria-hidden="true"></i>
                 </button>
-                <a href="game.html" class="game-link">
-                    <i class="fas fa-gamepad"></i>
-                    小游戏
+                <a href="game.html" class="game-link" title="时间守护者游戏 - 提高时间观念和反应速度">
+                    <i class="fas fa-gamepad" aria-hidden="true"></i>
+                    时间守护者游戏
                 </a>
             </div>
         </nav>
 
         <!-- 主要内容区域 -->
-        <main class="main-content">
+        <main class="main-content" role="main">
+            <header class="page-header" style="text-align: center; margin-bottom: 2rem;">
+                <h1>专业时间管理工具 - 提高时间效率的在线计时器</h1>
+                <p>TimeMaster提供专业的在线时间管理工具，包括计时器、倒计时器、番茄钟、秒表等多种功能。帮助您实现有效的时间管理，提高工作效率，优化时间分配。免费使用，无需下载安装。</p>
+            </header>
             <!-- 计时器面板 -->
             <div class="tab-panel" id="timer">
                 <div class="timer-container">
@@ -218,10 +287,58 @@
         <!-- 通知区域 -->
         <div class="notification" id="notification">
             <div class="notification-content">
-                <i class="fas fa-bell"></i>
+                <i class="fas fa-bell" aria-hidden="true"></i>
                 <span id="notificationText"></span>
             </div>
         </div>
+        
+        <!-- SEO内容区域 -->
+        <footer class="seo-content" style="background: var(--bg-secondary); padding: 3rem 2rem; margin-top: 3rem; border-top: 1px solid var(--border-color);">
+            <div style="max-width: 1200px; margin: 0 auto;">
+                <section style="margin-bottom: 3rem;">
+                    <h2 style="color: var(--text-primary); margin-bottom: 1.5rem; font-size: 1.5rem;">时间管理的重要性</h2>
+                    <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 1rem;">时间管理是现代生活中不可或缺的技能。通过有效的时间规划和时间追踪，您可以显著提高工作效率，减少压力，实现更好的工作生活平衡。我们的专业计时工具帮助您培养良好的时间观念，掌握时间管理的技巧。</p>
+                    <p style="color: var(--text-secondary); line-height: 1.8;">无论是学习时间管理、工作时间优化，还是日程安排，TimeMaster都能为您提供实用的解决方案。从简单的计时器到复杂的番茄钟工作法，我们涵盖了所有时间管理需求。</p>
+                </section>
+                
+                <section style="margin-bottom: 3rem;">
+                    <h2 style="color: var(--text-primary); margin-bottom: 1.5rem; font-size: 1.5rem;">我们的时间管理工具</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                        <div style="background: var(--bg-primary); padding: 1.5rem; border-radius: 0.5rem; border: 1px solid var(--border-color);">
+                            <h3 style="color: var(--accent-color); margin-bottom: 1rem;">在线计时器</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.6;">专业的在线计时器，支持精确到秒的时间计算。适用于各种计时需求，操作简单，功能强大。</p>
+                        </div>
+                        <div style="background: var(--bg-primary); padding: 1.5rem; border-radius: 0.5rem; border: 1px solid var(--border-color);">
+                            <h3 style="color: var(--accent-color); margin-bottom: 1rem;">倒计时器</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.6;">智能倒计时功能，帮助您管理时间节点。支持自定义时长，适用于考试、会议、运动等各种场景。</p>
+                        </div>
+                        <div style="background: var(--bg-primary); padding: 1.5rem; border-radius: 0.5rem; border: 1px solid var(--border-color);">
+                            <h3 style="color: var(--accent-color); margin-bottom: 1rem;">番茄钟</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.6;">基于番茄工作法的时间管理工具，通过专注时间和休息时间的循环，提高工作效率和专注力。</p>
+                        </div>
+                        <div style="background: var(--bg-primary); padding: 1.5rem; border-radius: 0.5rem; border: 1px solid var(--border-color);">
+                            <h3 style="color: var(--accent-color); margin-bottom: 1rem;">秒表功能</h3>
+                            <p style="color: var(--text-secondary); line-height: 1.6;">精确的秒表计时，支持计圈功能。适用于运动计时、实验测量、竞赛计时等各种精确计时需求。</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <section>
+                    <h2 style="color: var(--text-primary); margin-bottom: 1.5rem; font-size: 1.5rem;">时间管理技巧与建议</h2>
+                    <div style="background: var(--bg-primary); padding: 2rem; border-radius: 0.5rem; border-left: 4px solid var(--accent-color);">
+                        <h3 style="color: var(--accent-color); margin-bottom: 1rem;">如何提高时间效率</h3>
+                        <ul style="color: var(--text-secondary); line-height: 1.8; padding-left: 1.5rem;">
+                            <li><strong>时间规划：</strong>制定明确的时间计划，合理分配工作和休息时间</li>
+                            <li><strong>时间追踪：</strong>使用计时工具记录实际用时，分析时间使用模式</li>
+                            <li><strong>优先级管理：</strong>根据重要性和紧急性安排任务顺序</li>
+                            <li><strong>专注训练：</strong>通过番茄钟等方法提高专注力和工作效率</li>
+                            <li><strong>时间优化：</strong>识别并消除时间浪费，提高时间利用率</li>
+                        </ul>
+                        <p style="color: var(--text-secondary); line-height: 1.8; margin-top: 1rem;">TimeMaster致力于帮助用户建立良好的时间观念，掌握有效的时间管理方法，实现个人和职业发展的目标。开始使用我们的时间管理工具，让时间成为您的朋友。</p>
+                    </div>
+                </section>
+            </div>
+        </footer>
     </div>
 
     <script src="script.js"></script>
