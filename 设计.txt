@@ -100,7 +100,3 @@ timer1/
 ## 📄 许可证
 
 MIT License - 详见LICENSE文件
-
----
-
-**TimeMaster** - 让时间管理更简单、更高效！ 
